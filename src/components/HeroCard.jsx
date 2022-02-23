@@ -11,7 +11,7 @@ const HeroCard = () => {
         <img src={heroImage} alt="NIKE Air Zoom Coral" className="w-full h-full" />
       </div>
 
-      <div className="absolute top-12 right-16">
+      <div className="absolute top-16 right-16">
         <div className="flex flex-col justify-between items-start space-y-20">
           <h1 className="font-display text-[112px] leading-[100px] uppercase">
             <span>Nike Air</span> <br />
