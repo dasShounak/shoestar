@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Categories from "./components/Categories";
+import Featured from "./components/Featured";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Hero />
       <Categories />
+      <Featured />
     </div>
   );
 }
