@@ -6,4 +6,12 @@
   .text-stroke-white {
     -webkit-text-stroke: 2px white;
   }
+
+  button.raise:hover {
+    box-shadow: 4px 4px 0 0 #fff;
+  }
+  
+  button.raise:active {
+    box-shadow: none;
+  }
 }

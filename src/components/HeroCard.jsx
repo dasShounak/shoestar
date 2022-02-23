@@ -5,7 +5,7 @@ const HeroCard = () => {
   return (
     <div
       id="card"
-      className="relative pt-10 bg-gradient-to-br from-blue-600 to-indigo-[#0A0D1A] text-white rounded-[60px]"
+      className="relative pt-10 bg-gradient-to-br from-indigo-600 via-[#142a5a] to-[#060f21] text-white rounded-[60px]"
     >
       <div id="hero-img">
         <img src={heroImage} alt="NIKE Air Zoom Coral" className="w-full h-full" />
@@ -21,7 +21,7 @@ const HeroCard = () => {
           </h1>
 
           <div>
-            <Button text="Buy Now" type="gradient" bold />
+            <Button text="Buy Now" type="gradient" bold raise />
           </div>
         </div>
       </div>
