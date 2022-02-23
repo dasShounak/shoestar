@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/shoestar/static/css/main.5aa956d3.css",
-    "main.js": "/shoestar/static/js/main.4299e0da.js",
+    "main.css": "/shoestar/static/css/main.aa45d242.css",
+    "main.js": "/shoestar/static/js/main.9251ad59.js",
     "static/js/787.ad04d5bb.chunk.js": "/shoestar/static/js/787.ad04d5bb.chunk.js",
     "static/media/hero.png": "/shoestar/static/media/hero.93c0505bde59548cf3c0.png",
+    "static/media/item-2.png": "/shoestar/static/media/item-2.08f6ad36b38983b0c624.png",
+    "static/media/item-3.png": "/shoestar/static/media/item-3.7857dd8a4ca3deee821c.png",
+    "static/media/item-1.png": "/shoestar/static/media/item-1.d0db1bdb433bc8f46614.png",
     "static/media/logo.svg": "/shoestar/static/media/logo.3a58f862055d72206fa4b854c96fcde9.svg",
     "index.html": "/shoestar/index.html",
-    "main.5aa956d3.css.map": "/shoestar/static/css/main.5aa956d3.css.map",
-    "main.4299e0da.js.map": "/shoestar/static/js/main.4299e0da.js.map",
+    "main.aa45d242.css.map": "/shoestar/static/css/main.aa45d242.css.map",
+    "main.9251ad59.js.map": "/shoestar/static/js/main.9251ad59.js.map",
     "787.ad04d5bb.chunk.js.map": "/shoestar/static/js/787.ad04d5bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5aa956d3.css",
-    "static/js/main.4299e0da.js"
+    "static/css/main.aa45d242.css",
+    "static/js/main.9251ad59.js"
   ]
 }
