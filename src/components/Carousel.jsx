@@ -1,0 +1,53 @@
+import { Navigation } from "swiper";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
+import ShopItem from "./ShopItem";
+import Shoe1Screen from "../img/shoe-1_screen.png";
+import Shoe1Muliply from "../img/shoe-1_multiply.png";
+import Shoe2Screen from "../img/shoe-2_screen.png";
+import Shoe2Muliply from "../img/shoe-2_multiply.png";
+import Shoe3Screen from "../img/shoe-3_screen.png";
+import Shoe3Muliply from "../img/shoe-3_multiply.png";
+
+const Carousel = () => {
+  return (
+    <div>
+      <Swiper
+        modules={[Navigation]}
+        spaceBetween={80}
+        slidesPerView={3}
+        navigation
+        loop
+        centeredSlides
+        autoHeight
+        grabCursor
+        longSwipes
+        onSwiper={(swiper) => console.log(swiper)}
+        onSlideChange={() => console.log("slide change")}
+        className="h-full w-full"
+      >
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe1Muliply} imageScreen={Shoe1Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe2Muliply} imageScreen={Shoe2Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe3Muliply} imageScreen={Shoe3Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe1Muliply} imageScreen={Shoe1Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe2Muliply} imageScreen={Shoe2Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+        <SwiperSlide>
+          <ShopItem imageMultiply={Shoe3Muliply} imageScreen={Shoe3Screen} itemName="Nike Adapt BB 2.0" />
+        </SwiperSlide>
+      </Swiper>
+    </div>
+  );
+};
+
+export default Carousel;

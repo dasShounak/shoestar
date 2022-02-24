@@ -1,6 +1,7 @@
 import Button from "./Button";
 import ShopItem from "./ShopItem";
-import FeaturedItem from "../img/featured-shoe.png";
+import ShoeScreen from "../img/featured-shoe_screen.png";
+import ShoeMultiply from "../img/featured-shoe_multiply.png";
 
 const Featured = () => {
   return (
@@ -21,7 +22,7 @@ const Featured = () => {
           </div>
         </div>
         <div className="ml-auto">
-          <ShopItem featured itemPic={FeaturedItem} itemName="Nike Adapt BB 2.0" showExtras itemPrice="155 USD" itemColors="2 Colors" />
+          <ShopItem imageMultiply={ShoeMultiply} imageScreen={ShoeScreen} itemName="Nike Adapt BB 2.0" showExtras itemPrice="155 USD" itemColors="2 Colors" />
         </div>
       </div>
     </div>
