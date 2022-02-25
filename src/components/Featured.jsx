@@ -5,7 +5,7 @@ import ShoeMultiply from "../img/featured-shoe_multiply.png";
 
 const Featured = () => {
   return (
-    <div className="h-screen flex flex-col items-center justify-center">
+    <section className="h-screen flex flex-col items-center justify-center">
       <div className="grid grid-cols-2 gap-4 px-32">
         <div className="flex flex-col justify-start items-start mt-16">
           <h1 className="font-display text-5xl mb-10">
@@ -25,7 +25,7 @@ const Featured = () => {
           <ShopItem imageMultiply={ShoeMultiply} imageScreen={ShoeScreen} itemName="Nike Adapt BB 2.0" showExtras itemPrice="155 USD" itemColors="2 Colors" />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

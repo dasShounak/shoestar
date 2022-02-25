@@ -2,7 +2,7 @@ import { BiChevronDown } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center transform -translate-y-4 font-body-heavy">
+    <nav className="flex justify-between items-center transform -translate-y-4 font-body-heavy tracking-wider">
       <ul className="flex justify-center items-baseline space-x-8 mr-10">
         <li>
           <a href="#">New Arrivals</a>
