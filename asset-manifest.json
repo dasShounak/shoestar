@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoestar/static/css/main.1562cc34.css",
-    "main.js": "/shoestar/static/js/main.38b9a48f.js",
+    "main.css": "/shoestar/static/css/main.650a01bd.css",
+    "main.js": "/shoestar/static/js/main.8c9e886c.js",
     "static/js/787.ad04d5bb.chunk.js": "/shoestar/static/js/787.ad04d5bb.chunk.js",
     "static/media/phantom.png": "/shoestar/static/media/phantom.88c9b04964a0968f122d.png",
     "static/media/hero.png": "/shoestar/static/media/hero.93c0505bde59548cf3c0.png",
@@ -30,12 +30,12 @@
     "static/media/aileron-light-webfont.woff2": "/shoestar/static/media/aileron-light-webfont.ea8e1e1c89dd2266a23a.woff2",
     "static/media/aileron-regular-webfont.woff2": "/shoestar/static/media/aileron-regular-webfont.55506faaa9be6845d235.woff2",
     "index.html": "/shoestar/index.html",
-    "main.1562cc34.css.map": "/shoestar/static/css/main.1562cc34.css.map",
-    "main.38b9a48f.js.map": "/shoestar/static/js/main.38b9a48f.js.map",
+    "main.650a01bd.css.map": "/shoestar/static/css/main.650a01bd.css.map",
+    "main.8c9e886c.js.map": "/shoestar/static/js/main.8c9e886c.js.map",
     "787.ad04d5bb.chunk.js.map": "/shoestar/static/js/787.ad04d5bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1562cc34.css",
-    "static/js/main.38b9a48f.js"
+    "static/css/main.650a01bd.css",
+    "static/js/main.8c9e886c.js"
   ]
 }
