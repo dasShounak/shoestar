@@ -1,5 +1,7 @@
 import { Navigation } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
+import CarouselPrevButton from "./CarouselPrevButton";
+import CarouselNextButton from "./CarouselNextButton";
 import "swiper/css";
 import "swiper/css/navigation";
 import ShopItem from "./ShopItem";
@@ -17,7 +19,7 @@ const Carousel = () => {
         modules={[Navigation]}
         spaceBetween={80}
         slidesPerView={3}
-        navigation
+        navigation={{ nextEl: CarouselNextButton, prevEl: CarouselPrevButton }}
         loop
         centeredSlides
         autoHeight
@@ -25,7 +27,7 @@ const Carousel = () => {
         longSwipes
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
-        className="h-full w-full"
+        className="h-full w-full relative"
       >
         <SwiperSlide>
           <ShopItem imageMultiply={Shoe1Muliply} imageScreen={Shoe1Screen} itemName="Nike Adapt BB 2.0" />
@@ -45,6 +47,12 @@ const Carousel = () => {
         <SwiperSlide>
           <ShopItem imageMultiply={Shoe3Muliply} imageScreen={Shoe3Screen} itemName="Nike Adapt BB 2.0" />
         </SwiperSlide>
+        <div className="absolute right-6 bottom-1/2 z-10">
+          <CarouselNextButton />
+        </div>
+        <div className="absolute left-6 bottom-1/2 z-10">
+          <CarouselPrevButton />
+        </div>
       </Swiper>
     </div>
   );

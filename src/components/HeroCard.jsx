@@ -21,7 +21,7 @@ const HeroCard = () => {
           </h1>
 
           <div>
-            <Button text="Buy Now" type="gradient" bold raise />
+            <Button text="Buy Now" type="gradient" display uppercase raise />
           </div>
         </div>
       </div>

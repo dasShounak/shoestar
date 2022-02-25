@@ -3,9 +3,11 @@ const Button = (props) => {
   const gradient = props.gradient;
 
   const styles = {
-    fontWeight: props.bold ? "bold" : "normal",
+    fontFamily: props.display ? "Grange" : "Aileron-italic",
+    fontWeight: props.bold ? "bolder" : "normal",
     background: props.type === "filled" ? fillColor : props.type === "gradient" ? gradient : "transparent",
     border: props.stroke ? "2px solid white" : "none",
+    textTransform: props.uppercase && "uppercase"
   };
 
   return (
@@ -14,8 +16,8 @@ const Button = (props) => {
       style={styles}
       className={
         props.raise
-          ? "text-3xl font-body italic uppercase px-8 py-4 rounded-full transition transform hover:-translate-x-1 hover:-translate-y-1 active:translate-x-0 active:translate-y-0 raise"
-          : "text-3xl font-body italic uppercase px-8 py-4 rounded-full"
+          ? "text-3xl font-body-italic px-8 py-4 rounded-full transition transform hover:-translate-x-1 hover:-translate-y-1 active:translate-x-0 active:translate-y-0 raise"
+          : "text-3xl font-body-italic px-8 py-4 rounded-full"
       }
     >
       {props.text}

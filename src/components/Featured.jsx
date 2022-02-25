@@ -13,7 +13,7 @@ const Featured = () => {
             <br />
             From our Store
           </h1>
-          <p className="text-3xl italic leading-relaxed max-w-2xl font-body">
+          <p className="text-3xl leading-relaxed max-w-2xl font-body-italic">
             Popular styles from the newest release of Nike collection. An assortment of everyday core UltraBoost branded
             items.
           </p>
