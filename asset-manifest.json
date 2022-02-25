@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shoestar/static/css/main.c40c80c6.css",
-    "main.js": "/shoestar/static/js/main.e395618e.js",
+    "main.css": "/shoestar/static/css/main.1562cc34.css",
+    "main.js": "/shoestar/static/js/main.38b9a48f.js",
     "static/js/787.ad04d5bb.chunk.js": "/shoestar/static/js/787.ad04d5bb.chunk.js",
     "static/media/phantom.png": "/shoestar/static/media/phantom.88c9b04964a0968f122d.png",
     "static/media/hero.png": "/shoestar/static/media/hero.93c0505bde59548cf3c0.png",
@@ -17,13 +17,25 @@
     "static/media/shoe-1_multiply.png": "/shoestar/static/media/shoe-1_multiply.fc88e9b01586bdaad77d.png",
     "static/media/shoe-2_screen.png": "/shoestar/static/media/shoe-2_screen.21f29375eae65684763a.png",
     "static/media/shoe-1_screen.png": "/shoestar/static/media/shoe-1_screen.cb0fd7fcb1423f286b68.png",
+    "static/media/grange_italic-webfont.woff": "/shoestar/static/media/grange_italic-webfont.a55d41bfcd0c970e8088.woff",
+    "static/media/aileron-italic-webfont.woff": "/shoestar/static/media/aileron-italic-webfont.59bcbe1f3edaae2df4d3.woff",
+    "static/media/aileron-heavy-webfont.woff": "/shoestar/static/media/aileron-heavy-webfont.a7e2aee3c3f6c4c26acf.woff",
+    "static/media/aileron-bold-webfont.woff": "/shoestar/static/media/aileron-bold-webfont.f47edce16f9679300aeb.woff",
+    "static/media/aileron-light-webfont.woff": "/shoestar/static/media/aileron-light-webfont.a92a5aef2b63ba6f5a99.woff",
+    "static/media/aileron-regular-webfont.woff": "/shoestar/static/media/aileron-regular-webfont.1cb37320292aca026c7b.woff",
+    "static/media/grange_italic-webfont.woff2": "/shoestar/static/media/grange_italic-webfont.ca0d02a34c570895462f.woff2",
+    "static/media/aileron-italic-webfont.woff2": "/shoestar/static/media/aileron-italic-webfont.74f055cb77668b5b90f8.woff2",
+    "static/media/aileron-heavy-webfont.woff2": "/shoestar/static/media/aileron-heavy-webfont.d100119319db13fe056a.woff2",
+    "static/media/aileron-bold-webfont.woff2": "/shoestar/static/media/aileron-bold-webfont.fda80a1a6c9e10e9a33c.woff2",
+    "static/media/aileron-light-webfont.woff2": "/shoestar/static/media/aileron-light-webfont.ea8e1e1c89dd2266a23a.woff2",
+    "static/media/aileron-regular-webfont.woff2": "/shoestar/static/media/aileron-regular-webfont.55506faaa9be6845d235.woff2",
     "index.html": "/shoestar/index.html",
-    "main.c40c80c6.css.map": "/shoestar/static/css/main.c40c80c6.css.map",
-    "main.e395618e.js.map": "/shoestar/static/js/main.e395618e.js.map",
+    "main.1562cc34.css.map": "/shoestar/static/css/main.1562cc34.css.map",
+    "main.38b9a48f.js.map": "/shoestar/static/js/main.38b9a48f.js.map",
     "787.ad04d5bb.chunk.js.map": "/shoestar/static/js/787.ad04d5bb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c40c80c6.css",
-    "static/js/main.e395618e.js"
+    "static/css/main.1562cc34.css",
+    "static/js/main.38b9a48f.js"
   ]
 }
