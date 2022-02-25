@@ -15,6 +15,7 @@ function App() {
       <Featured />
       <CTA />
       <Recent />
+      <Newsletter />
     </div>
   );
 }
