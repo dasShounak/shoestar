@@ -1,4 +1,3 @@
-import ShopItem from "./ShopItem";
 import Carousel from "./Carousel";
 
 const Recent = () => {

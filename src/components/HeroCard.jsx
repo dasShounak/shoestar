@@ -15,9 +15,9 @@ const HeroCard = () => {
         <div className="flex flex-col justify-between items-start space-y-20">
           <h1 className="font-display text-[112px] leading-[100px] uppercase">
             <span>Nike Air</span> <br />
-            <span className="text-stroke-white text-transparent text-[166px] leading-[140px]">Zoom</span>
+            <span className="text-stroke-white text-transparent text-[146px] leading-[140px]">Zoom</span>
             <br />
-            <span className="text-[148px] leading-[128px]">Coral</span>
+            <span className="text-[148px] leading-[128px] -ml-2">Coral</span>
           </h1>
 
           <div>

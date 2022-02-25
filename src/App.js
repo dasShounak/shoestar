@@ -5,6 +5,7 @@ import Featured from "./components/Featured";
 import CTA from "./components/CTA";
 import Recent from "./components/Recent";
 import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <CTA />
       <Recent />
       <Newsletter />
+      <Footer />
     </div>
   );
 }

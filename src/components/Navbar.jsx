@@ -1,10 +1,8 @@
 import { BiChevronDown } from "react-icons/bi";
-import { BiMenuAltLeft } from "react-icons/bi";
-import { BiX } from "react-icons/bi";
 
 const Navbar = () => {
   return (
-    <nav className="flex justify-between items-center transform -translate-y-4">
+    <nav className="flex justify-between items-center transform -translate-y-4 font-body-heavy">
       <ul className="flex justify-center items-baseline space-x-8 mr-10">
         <li>
           <a href="#">New Arrivals</a>
@@ -25,9 +23,6 @@ const Navbar = () => {
           </a>
         </li>
       </ul>
-      {/* <div id="burger">
-        <BiX className="text-4xl cursor-pointer" />
-      </div> */}
     </nav>
   );
 };
