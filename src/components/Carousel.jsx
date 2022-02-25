@@ -1,4 +1,4 @@
-import { Navigation } from "swiper";
+import { Navigation, A11y, Keyboard } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 import CarouselPrevButton from "./CarouselPrevButton";
 import CarouselNextButton from "./CarouselNextButton";
@@ -16,10 +16,12 @@ const Carousel = () => {
   return (
     <div>
       <Swiper
-        modules={[Navigation]}
+        modules={[Navigation, A11y, Keyboard]}
         spaceBetween={80}
         slidesPerView={3}
         navigation={{ nextEl: CarouselNextButton, prevEl: CarouselPrevButton }}
+        keyboard={{enabled: true}}
+        a11y
         loop
         centeredSlides
         autoHeight
